@@ -1,0 +1,12 @@
+.idea/**
+AAF_Lab_/.vs/
+AAF_Lab_/bin/
+AAF_Lab_/obj/
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
