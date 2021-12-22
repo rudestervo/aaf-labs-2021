@@ -1,0 +1,4 @@
+R_Tree_To_compile/build/
+R_Tree_To_compile/pybind11
+*.pyc
+.idea/
