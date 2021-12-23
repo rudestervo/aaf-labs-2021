@@ -1,0 +1,10 @@
+create cast (id indexed, name, value); insert cast (1, alex, meow); select * from cast;
+create cast (id indexed, name, value); insert cast (1, alex, meow); select name from cast;
+create cast (id indexed, name, value); insert cast (1, alex, meow); select name from cast; delete from cast; select * from cast;
+create cast (id indexed, name, value); insert cast (1, alex, meow); insert cast (2, jack, woof); select name, value from cast where name = alex; 
+create cast (id indexed, name, value); insert cast (1, alex, meow); insert cast (3, jack, woof); select name, value from cast where name = alex or value = woof;
+create cast (id indexed, name, value); insert cast (1, alex, meow); select name from cast; delete from cast where name = alex; select * from cast;
+create cast (id indexed, name, value); insert cast (1, alex, meow); insert cast (3, jack, woof); select name from cast; delete from cast where name = alex or value = woof; select * from cast;
+create cast (id indexed, name, value); insert into cast (1, alex, meow); select name from cast;insert cast 3, jack, woof; insert into cast 5, egor, gaaaaaf;select * from cast;
+create cast (id indexed, name, value); insert into cast (1, alex, meow); select name from cast;insert cast 3, jack, woof; insert into cast 5, egor, gaaaaaf;select * from cast; delete cast; select * from cast;
+create cast (id indexed, name, value); insert into cast (1, alex, meow); insert into cast (2, jack, woof); insert into cast (3, egor, boo); insert cast (4, monk, meow); select * from cast where name = monk or name = alex or name = egor;
